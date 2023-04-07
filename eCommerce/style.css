@@ -96,7 +96,7 @@ button.white {
 /* Hero Section */
 
 #hero {
-  background-image: url(Image/mohammad-metri-hero\ cover-unsplash.jpg);
+  background-image: url(https://raw.githubusercontent.com/DarylIP/SEC-FrontEnd-Project/main/eCommerce/Image/mohammad-metri-hero%20cover-unsplash.jpg);
   height: 90vh;
   width: 100%;
   background-position: top 40% right 50%;
@@ -286,7 +286,7 @@ button.white {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(Image/banner1\ by\ nick\ nice-unsplash.jpg);
+  background-image: url(https://raw.githubusercontent.com/DarylIP/SEC-FrontEnd-Project/main/eCommerce/Image/banner1%20by%20nick%20nice-unsplash.jpg);
   color: white;
   width: 100%;
   height: 40vh;
@@ -319,7 +319,7 @@ button.white {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(Image/banner3-dennys-lennon-unsplash.jpg);
+  background-image: url(https://raw.githubusercontent.com/DarylIP/SEC-FrontEnd-Project/main/eCommerce/Image/banner3-dennys-lennon-unsplash.jpg);
   width: 50%;
   height: 50vh;
   background-size: cover;
@@ -328,7 +328,7 @@ button.white {
   padding: 30px;
 }
 #sm-banner .banner-box2 {
-  background-image: url(Image/Thirteen-J-B5-unsplash.jpg);
+  background-image: url(https://raw.githubusercontent.com/DarylIP/SEC-FrontEnd-Project/main/eCommerce/Image/Thirteen-J-B5-unsplash.jpg);
 }
 
 #sm-banner h4 {
@@ -359,7 +359,7 @@ button.white {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url(Image/gwendal-cottin-b7-unsplash.jpg);
+  background-image: url(https://raw.githubusercontent.com/DarylIP/SEC-FrontEnd-Project/main/eCommerce/Image/gwendal-cottin-b7-unsplash.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -467,7 +467,7 @@ footer .copyright {
 /* Shop Page */
 
 #page-header {
-  background-image: url(Image/molly-blackbird-banner\ shop\ page-unsplash.jpg);
+  background-image: url(https://raw.githubusercontent.com/DarylIP/SEC-FrontEnd-Project/main/eCommerce/Image/molly-blackbird-banner%20shop%20page-unsplash.jpg);
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -564,7 +564,7 @@ footer .copyright {
 /* About Page */
 
 #page-header.about-header {
-  background-image: url(Image/paul-garaizar-about-unsplash.jpg);
+  background-image: url(https://raw.githubusercontent.com/DarylIP/SEC-FrontEnd-Project/main/eCommerce/Image/paul-garaizar-about-unsplash.jpg);
 }
 
 #page-header.about-header p {
@@ -588,7 +588,7 @@ footer .copyright {
 /* Contact Me */
 
 #page-header.contact-header {
-  background-image: url(Image/nasa-Contact-unsplash.jpg);
+  background-image: url(https://raw.githubusercontent.com/DarylIP/SEC-FrontEnd-Project/main/eCommerce/Image/nasa-Contact-unsplash.jpg);
 }
 
 #contact-details {
@@ -697,7 +697,7 @@ footer .copyright {
 /* Cart Page */
 
 #page-header.cart-header {
-  background-image: url(Image/patrick-hendry-fire\ cart-unsplash.jpg);
+  background-image: url(https://raw.githubusercontent.com/DarylIP/SEC-FrontEnd-Project/main/eCommerce/Image/patrick-hendry-fire%20cart-unsplash.jpg);
   width: 100%;
 }
 
