@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIP</title>
+
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header & NavBar -->
+    <header class="header">
+      <a href="https://www.linkedin.com/in/daryl-ian-paliath/" class="logo"
+        >DIP</a
+      >
+
+      <i class="bi bi-list" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hi there, I am</h3>
+        <h1>Daryl Ian Paliath</h1>
+        <h3>And I'm a <span>Frontend Developer</span></h3>
+        <p>Proficient in HTML / CSS / JS</p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/daryl-ian-paliath/"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <a href=""><i class="bi bi-filetype-html"></i></a>
+          <a href=""><i class="bi bi-filetype-css"></i></a>
+          <a href=""><i class="bi bi-filetype-js"></i></a>
+        </div>
+        <a
+          href="https://docs.google.com/document/d/1gm3OhPOX0dhD9wiMacQRu9Qk-h5w09nO/edit"
+          class="btn"
+          >Download CV</a
+        >
+      </div>
+
+      <div class="home-img">
+        <img
+          src="https://raw.githubusercontent.com/DarylIP/SEC-2023-Day-1/3a20189a3a0f3135913a4612f36ce8fc3e2bd424/DIP%20at%20AWS%20Cloud%20Day.jpg"
+          alt="Me at AWS Cloud Day"
+        />
+      </div>
+    </section>
+
+    <!-- about section-->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img
+          src="https://raw.githubusercontent.com/DarylIP/SEC-2023-Day-1/main/Gapura-14.jpg"
+          alt=""
+        />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>
+          Motivated and enthusiastic Software Engineer with a Bachelor's.
+          Experienced in HTML, CSS and JavaScript. Skilled in software
+          development, testing, and troubleshooting. Passionate about developing
+          innovative solutions to complex problems
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- Porfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img
+            src="https://images.unsplash.com/photo-1592609931041-40265b692757?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+          <div class="portfolio-layer">
+            <h4>eCommerce</h4>
+            <p>This is an eCommerce Project</p>
+            <a href="https://darylip.github.io/SEC-FrontEnd-Project/"
+              ><i class="bi bi-link-45deg"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img
+            src="https://images.unsplash.com/photo-1592609931041-40265b692757?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+          <div class="portfolio-layer">
+            <h4>JavaScript Fun</h4>
+            <p>Some JS For-Fun</p>
+            <a href="https://darylip.github.io/For-Fun/JS%20Project1/index.html"
+              ><i class="bi bi-link-45deg"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img
+            src="https://images.unsplash.com/photo-1592609931041-40265b692757?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            alt=""
+          />
+          <div class="portfolio-layer">
+            <h4>JavaScript Fun</h4>
+            <p>Another JS Practice</p>
+            <a href="https://darylip.github.io/Day-9/week3exer2.html"
+              ><i class="bi bi-link-45deg"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="email" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea
+        ><a href="mailto:0810dip@gmail.com"
+          ><input type="submit" value="Send Message" class="btn"
+        /></a>
+        <!-- <input type="submit" value="Send Message" class="btn" /> -->
+      </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
